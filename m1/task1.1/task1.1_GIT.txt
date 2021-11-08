@@ -1,0 +1,15 @@
+8299eb4 HEAD@{0}: checkout: moving from develop to master
+8299eb4 HEAD@{1}: checkout: moving from master to develop
+8299eb4 HEAD@{2}: merge develop: Fast-forward
+978456a HEAD@{3}: checkout: moving from develop to master
+8299eb4 HEAD@{4}: merge images: Fast-forward
+076e39b HEAD@{5}: checkout: moving from images to develop
+8299eb4 HEAD@{6}: commit: attach a styles.css file
+55e60f1 HEAD@{7}: checkout: moving from styles to images
+076e39b HEAD@{8}: checkout: moving from develop to styles
+076e39b HEAD@{9}: checkout: moving from images to develop
+55e60f1 HEAD@{10}: commit: add a folder with images
+076e39b HEAD@{11}: checkout: moving from develop to images
+076e39b HEAD@{12}: commit: add empty index.html file
+978456a HEAD@{13}: checkout: moving from master to develop
+978456a HEAD@{14}: commit (initial): add a readme.txt file
