@@ -91,4 +91,4 @@ wr
 ```
 
 ### Scheme
-(https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m3/task3.2/screenshots/3.2.jpg)
+![3.2](https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m3/task3.2/screenshots/3.2.jpg)

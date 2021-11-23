@@ -16,4 +16,4 @@ Web Server 2 - 3.95.12.100 /24
 DNS Server - 3.95.12.150 /24
 
 ### Scheme
-(https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m3/task3.1/screenshots/3.1.jpg)
+![3.1](https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m3/task3.1/screenshots/3.1.jpg)
