@@ -1,25 +1,25 @@
 ## Task 6.1
 
 **1. Create virtual machines connection according to image**
-(https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m6/task6.1/screenshots/figure1.png)
+![figure1](https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m6/task6.1/screenshots/figure1.png)
 
 
 **2. VM2 has one interface (internal), VM1 has 2 interfaces (NAT and internal). Configure all network interfaces in order to make VM2 has an access to the Internet (iptables, forward, masquerade).**
 
 `VM1 - Adapter 1 (NAT)`
-(https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m6/task6.1/screenshots/vm1-adapter1.png)
+![vm1-adapter1](https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m6/task6.1/screenshots/vm1-adapter1.png)
 
 `VM1 - Adapter 2 (internal)`
-(https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m6/task6.1/screenshots/vm1-adapter2.png)
+![vm1-adapter2](https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m6/task6.1/screenshots/vm1-adapter2.png)
 
 `VM2 - Adapter 1 (internal)`
-(https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m6/task6.1/screenshots/vm2-adapter1.png)
+![vm2-adapter1](https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m6/task6.1/screenshots/vm2-adapter1.png)
 
 `VM1 - interfaces`
-(https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m6/task6.1/screenshots/vm1-interfaces.png)
+![vm1-interfaces](https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m6/task6.1/screenshots/vm1-interfaces.png)
 
 `VM2 - interfaces`
-(https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m6/task6.1/screenshots/vm2-interfaces.png)
+![vm2-interfaces](https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m6/task6.1/screenshots/vm2-interfaces.png)
 
 To complete this task properly I want to set up DHCP server and make the configuration persistent after reboot, so I use isc-dhcp-server and netplan.
 
@@ -103,11 +103,11 @@ $ sudo ufw enable
 ```
 
 **3. Check the route from VM2 to Host.**
-(https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m6/task6.1/screenshots/routing-to-host.png)
+![routing-to-host](https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m6/task6.1/screenshots/routing-to-host.png)
 
 
 **4. Check the access to the Internet, (just ping, for example, 8.8.8.8).**
-(https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m6/task6.1/screenshots/ping.png)
+![ping](https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m6/task6.1/screenshots/ping.png)
 
 
 **5. Determine, which resource has an IP address 8.8.8.8.**
