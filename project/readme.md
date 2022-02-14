@@ -1,6 +1,8 @@
 ## Yurii Dorosh
 
-**home tasks**
+**[project](https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/project)**
+
+### **home tasks**
 
 [task1.1](https://github.com/udorosh/DevOps_online_Lviv_2021Q4/blob/master/m1/task1.1/readme.md)
 
