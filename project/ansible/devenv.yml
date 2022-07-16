@@ -32,7 +32,7 @@
     loop: '{{ docker_info.containers }}'
 
   - name: Start a container
-    command: "docker run -d --rm -p 8080:8080 kiykomi/pet-clinic:latest"
+    command: "docker run -d --rm -p 8080:8080 udorosh/pet-clinic:latest"
 
 
     

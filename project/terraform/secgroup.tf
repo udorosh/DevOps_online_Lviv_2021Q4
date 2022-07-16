@@ -1,4 +1,4 @@
-resource "aws_security_group" "kiykomi-sg" {
+resource "aws_security_group" "udorosh-sg" {
   name        = "My Dynamic Security Group"
   description = "Dynamic Security Group"
 
@@ -21,7 +21,7 @@ resource "aws_security_group" "kiykomi-sg" {
 
   tags = {
     Name    = "Dynamic Security Group"
-    Owner   = "Mikhail Kiyko"
-    Project = "PetClinic from kiykomi"
+    Owner   = "Yurii Dorosh"
+    Project = "PetClinic from udorosh"
   }
 }

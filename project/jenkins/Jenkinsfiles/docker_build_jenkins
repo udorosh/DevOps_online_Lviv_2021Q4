@@ -10,7 +10,7 @@ pipeline {
       timestamps()
     }
     environment {
-      IMAGE_BASE = 'kiykomi/pet-clinic'
+      IMAGE_BASE = 'udorosh/pet-clinic'
       IMAGE_TAG = "v$BUILD_NUMBER"
       IMAGE_NAME = "${env.IMAGE_BASE}:${env.IMAGE_TAG}"
       IMAGE_NAME_LATEST = "${env.IMAGE_BASE}:latest"
@@ -60,7 +60,7 @@ pipeline {
         stage("docker login") {
             steps {
                 echo "===========docker login============="
-                withCredentials([usernamePassword(credentialsId: 'dockerhub_kiykomi', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]){
+                withCredentials([usernamePassword(credentialsId: 'dockerhub_udorosh', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]){
                     sh """
                     docker login -u $USERNAME -p $PASSWORD
                     """
@@ -76,7 +76,7 @@ pipeline {
                 script {
                   sh 'pwd'
                   def dockerImage = docker.build("${IMAGE_NAME}", "-f ${DOCKERFILE_NAME} .")
-                  docker.withRegistry('', 'dockerhub_kiykomi') {
+                  docker.withRegistry('', 'dockerhub_udorosh') {
                     dockerImage.push()
                     dockerImage.push("latest")
                   }
